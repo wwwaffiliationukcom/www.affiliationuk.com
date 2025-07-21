@@ -11,30 +11,30 @@ Le site est accessible ici :
 
 Ce dépôt contient un site statique hébergé sur GitHub Pages.  
 Fichiers principaux :
-- `index.html` : page d'accueil du site
-- `sitemap.xml` : (facultatif, à corriger plus tard si nécessaire)
-- `robots.txt` : directives pour les moteurs de recherche
+- `index.html` : page d'accueil du site  
+- `sitemap.xml` : (facultatif, à corriger plus tard si nécessaire)  
+- `robots.txt` : directives pour les moteurs de recherche  
 - `CNAME` : (présent uniquement si un domaine personnalisé est utilisé)
 
 ## 🔍 Référencement (SEO)
 
 Le site est optimisé pour le référencement :
-- Balises meta `description`, `keywords`, `author`
-- Structure HTML claire
-- Section dédiée aux offres
+- Balises meta `description`, `keywords`, `author`  
+- Structure HTML claire  
+- Section dédiée aux offres  
 - Vérification de propriété via Google Search Console
 
 ## 📞 Contact
 
 Vous pouvez nous contacter via :
-- **Email** : [fathifathicrss@gmail.com](mailto:fathifathicrss@gmail.com)
-- **WhatsApp** : [Cliquez ici](https://wa.me/0000000000)
+- **Email** : [affiliationsuk@gmail.com](mailto:affiliationsuk@gmail.com)  
+- **WhatsApp** : [Cliquez ici](https://wa.me/21625488781)
 
 ## ✅ Objectifs futurs
 
-- Ajouter une ou plusieurs pages (ex : `offres.html`, `faq.html`)
-- Enrichir le contenu SEO (titres, descriptions, backlinks)
-- Corriger le sitemap et améliorer l'indexation complète
+- Ajouter une ou plusieurs pages (ex : `offres.html`, `faq.html`)  
+- Enrichir le contenu SEO (titres, descriptions, backlinks)  
+- Corriger le sitemap et améliorer l'indexation complète  
 
 ---
 
