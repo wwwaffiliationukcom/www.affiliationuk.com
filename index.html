@@ -102,9 +102,31 @@
       color: #c0392b;
       margin: 2em 0 1em 0;
       text-align: left;
-      max-width: 700px;
-      margin-left: auto;
-      margin-right: auto;
+      max-width: 1200px;
+      margin-left: 2em;
+    }
+
+    .produits-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1em;
+      margin-left: 2em;
+      max-width: 1200px;
+    }
+
+    .produit {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      padding: 1em;
+      width: 300px;
+      text-align: center;
+    }
+
+    .produit img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
     }
 
     footer {
@@ -161,23 +183,40 @@
   <section aria-label="Nos offres">
     <div class="offres-title">Nos offres spéciaux</div>
 
-    <!-- 🔽 Titre Beauté -->
     <div class="beauty-title">Beauté</div>
 
-    <!-- 🔽 Grille produit MetaNail -->
-    <div class="section" style="max-width: 700px; margin-left: auto; margin-right: auto; text-align: left;">
-      <a href="https://c5f7ehvz6gfel0bhfsmzxjmt7x.hop.clickbank.net" target="_blank" rel="noopener noreferrer">
-        <img src="https://metanailcomplex.com/includes/img/hero-image.png" alt="MetaNail Complex" style="max-width:300px; height:auto; border-radius:10px;" />
-      </a>
-      <p style="margin-top: 1em; font-size: 1em; color: #333;">
-        <strong>MetaNail</strong><br />
-        Des ongles sains et de beaux pieds<br />
-        Formule essentielle 20 en 1 pour les ongles et les pieds<br />
-        Conçu pour offrir des résultats supérieurs et durables<br />
-        Soutient tous les aspects du bien-être total des ongles et des pieds
-      </p>
+    <div class="produits-grid">
+      <div class="produit">
+        <a href="https://c5f7ehvz6gfel0bhfsmzxjmt7x.hop.clickbank.net" target="_blank" rel="noopener noreferrer">
+          <img src="https://metanailcomplex.com/includes/img/hero-image.png" alt="MetaNail Complex" />
+        </a>
+        <p style="margin-top: 1em; font-size: 1em; color: #333;">
+          <strong>MetaNail</strong><br />
+          Ongles et pieds en bonne santé<br />
+          Formule 20 en 1 pour un soin complet
+        </p>
+      </div>
+
+      <div class="produit">
+        <a href="#">
+          <img src="https://via.placeholder.com/300x200.png?text=Produit+Beauté+2" alt="Produit Beauté 2" />
+        </a>
+        <p style="margin-top: 1em; font-size: 1em; color: #333;">
+          <strong>Beauté+ Skin</strong><br />
+          Crème naturelle pour peau éclatante
+        </p>
+      </div>
+
+      <div class="produit">
+        <a href="#">
+          <img src="https://via.placeholder.com/300x200.png?text=Produit+Beauté+3" alt="Produit Beauté 3" />
+        </a>
+        <p style="margin-top: 1em; font-size: 1em; color: #333;">
+          <strong>GlowHair</strong><br />
+          Solution capillaire pour cheveux brillants
+        </p>
+      </div>
     </div>
-    <!-- 🔼 Fin de l'offre -->
   </section>
 </main>
 
