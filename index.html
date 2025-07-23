@@ -47,25 +47,29 @@
       display: flex;
       justify-content: center;
       gap: 1em;
-      max-width: 800px;
+      max-width: 1000px;
       margin: 0 auto;
       flex-wrap: wrap;
     }
 
     .card {
       flex: 1 1 300px;
-      max-width: 48%;
+      max-width: 32%;
       min-width: 280px;
-      height: 300px;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 1em;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      text-align: center;
     }
 
     @media (max-width: 768px) {
       .card {
         max-width: 100%;
-        height: auto;
       }
     }
 
@@ -150,21 +154,29 @@
   <section aria-label="Nos offres">
     <div class="offres-title">Nos offres spéciaux</div>
 
-    <!-- 🔽 Ajout de l'offre MetaNail avec description -->
-    <div class="section" style="max-width: 800px; margin: 0 auto;">
-      <a href="https://c5f7ehvz6gfel0bhfsmzxjmt7x.hop.clickbank.net" target="_blank" rel="noopener noreferrer">
-        <img src="https://metanailcomplex.com/includes/img/hero-image.png" alt="MetaNail Complex" style="max-width:300px; height:auto; border-radius:10px;" />
-      </a>
-      <p style="margin-top: 1em; font-size: 1em; color: #333;">
-        <strong>MetaNail</strong><br />
-        Des ongles sains et de beaux pieds<br />
-        Formule essentielle 20 en 1 pour les ongles et les pieds<br />
-        Conçu pour offrir des résultats supérieurs et durables<br />
-        Soutient tous les aspects du bien-être total des ongles et des pieds
-      </p>
-    </div>
-    <!-- 🔼 Fin de l'ajout -->
+    <!-- 🔽 Grille des produits -->
+    <div class="grid">
 
+      <!-- 🔽 Produit 1 : MetaNail Beauté -->
+      <div class="card">
+        <h2>Beauté</h2>
+        <a href="https://c5f7ehvz6gfel0bhfsmzxjmt7x.hop.clickbank.net" target="_blank" rel="noopener noreferrer">
+          <img src="https://metanailcomplex.com/includes/img/hero-image.png" alt="MetaNail Complex" style="max-width:300px; height:auto; border-radius:10px;" />
+        </a>
+        <p style="margin-top: 1em; font-size: 0.95em; color: #333;">
+          <strong>MetaNail</strong><br />
+          Des ongles sains et de beaux pieds<br />
+          Formule essentielle 20 en 1 pour les ongles et les pieds<br />
+          Conçu pour offrir des résultats supérieurs et durables<br />
+          Soutient tous les aspects du bien-être total des ongles et des pieds
+        </p>
+      </div>
+      <!-- 🔼 Fin produit 1 -->
+
+      <!-- 🔜 Tu peux copier ici d'autres <div class="card"> pour créer une ligne de 3 -->
+
+    </div>
+    <!-- 🔼 Fin de la grille -->
   </section>
 </main>
 
