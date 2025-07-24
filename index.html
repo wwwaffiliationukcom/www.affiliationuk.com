@@ -67,6 +67,9 @@
         max-width: 100%;
         height: auto;
       }
+      .produits-ligne {
+        flex-direction: column;
+      }
     }
 
     h2 {
@@ -110,7 +113,15 @@
       text-decoration: none;
     }
 
-    /* Style pour la grille du produit */
+    .produits-ligne {
+      display: flex;
+      justify-content: center;
+      gap: 1em;
+      flex-wrap: wrap;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
     .produit-grille {
       display: grid;
       place-items: center;
@@ -119,8 +130,9 @@
       padding: 1.5em;
       border-radius: 15px;
       box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-      max-width: 350px;
+      max-width: 500px;
       text-align: center;
+      flex: 1 1 400px;
     }
 
     .produit-grille img {
@@ -184,7 +196,7 @@
   <section aria-label="Nos offres">
     <div class="offres-title">Nos offres spéciaux</div>
 
-    <div class="grid">
+    <div class="produits-ligne">
       <div class="produit-grille">
         <h3>Santé</h3>
         <img src="https://styleweekly.wppcdn.com/wp-content/uploads/2025/01/gygiuy-2.png" alt="Produit santé" />
@@ -197,12 +209,13 @@
       <div class="produit-grille">
         <h3>Digestion</h3>
         <img src="https://getprimebiome.com//statics/img/tsl-main.png" alt="Produit digestion" />
-        <p>Un probiotique puissant pour améliorer la santé intestinale et favoriser l'équilibre digestif...</p>
+        <p>Découvrez ce probiotique puissant pour améliorer votre santé intestinale et renforcer votre système immunitaire...</p>
         <a class="produit-lien" href="https://35220qo6xfd8u09ihdg8ohyt59.hop.clickbank.net" target="_blank" rel="noopener">
           Plus<br />d'informations
         </a>
       </div>
     </div>
+
   </section>
 </main>
 
