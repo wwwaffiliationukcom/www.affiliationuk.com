@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset 
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://wwwaffiliationukcom.github.io/www.affiliationuk.com/</loc>
-    <lastmod>2025-07-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <loc>https://www.affiliationukcom.github.io/www.affiliationuk.com/</loc>
   </url>
-
+  <url>
+    <loc>https://www.affiliationukcom.github.io/www.affiliationuk.com/index.html</loc>
+  </url>
+  <url>
+    <loc>https://www.affiliationukcom.github.io/www.affiliationuk.com/favicon.ico</loc>
+  </url>
+  <url>
+    <loc>https://www.affiliationukcom.github.io/www.affiliationuk.com/favicon-32x32.png</loc>
+  </url>
+  <url>
+    <loc>https://www.affiliationukcom.github.io/www.affiliationuk.com/favicon-16x16.png</loc>
+  </url>
+  <url>
+    <loc>https://www.affiliationukcom.github.io/www.affiliationuk.com/apple-touch-icon.png</loc>
+  </url>
+  <url>
+    <loc>https://www.affiliationukcom.github.io/www.affiliationuk.com/site.webmanifest</loc>
+  </url>
+  <url>
+    <loc>https://www.affiliationukcom.github.io/www.affiliationuk.com/opengraph_image.png</loc>
+  </url>
 </urlset>
