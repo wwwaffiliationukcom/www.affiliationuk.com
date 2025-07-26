@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://wwwaffiliationukcom.github.io/www.affiliationuk.com/sitemap.xml
+Sitemap: https://www.affiliationukcom.github.io/www.affiliationuk.com/sitemap.xml
